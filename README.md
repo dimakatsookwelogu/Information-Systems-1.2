@@ -5,6 +5,8 @@ Introduction
 1. Topic:
 Cellphone Retail Shop Database
 
+2
+
 2.1 Overview
    Reason for choosing this topic
 A retail cellphone database was chosen because because cellphone shops need efficient ways to manage daily business activities including selling, managing stocks and keeping customer records. This database will helps organise information, improve accuracy, reduce errors and make it easier for business.
