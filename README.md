@@ -1,12 +1,14 @@
 # Information-Systems-1.2 Database Group Project
 
 Introduction
+
 1.Topic
 Cellphone Retail Shop Database
 
 2.1 Overview
    Reason for choosing this topic
 A retail cellphone database was chosen because because cellphone shops need efficient ways to manage daily business activities including selling, managing stocks and keeping customer records. This database will helps organise information, improve accuracy, reduce errors and make it easier for business.
+
 2.2 Objectives
 •	To design a relational database that manages cellphone models, customers, employees, suppliers, branches, and sales.
 •	To reduce data duplication and maintain data integrity through database normalisation.
@@ -20,7 +22,7 @@ Our business is a cellphone retail shop that sells cellphones from its own speci
 
 The business needs to keep track of its customers, cellphone models, individual cellphones, employees, shops and suppliers. As the business grows, the amount of information that needs to be managed also increases. Therefore, an organised database system is required to store and manage the business information efficiently.
 
-4.Importance of the Database
+4. Importance of the Database
 
 A database is important because it provides the business with a centralised and organised way of storing and managing its information. It will allow the business to keep accurate records of customers, cellphones, cellphone models, employees, shops and suppliers.
 
@@ -37,7 +39,7 @@ The database approach will improve the business by making information easier to 
 The database will help the business keep track of cellphone models and the availability of cellphones at different shops. It will also improve the accuracy and consistency of business information by reducing duplicate records and ensuring that related information is properly connected.
 Management will be able to use the stored information to understand the business operations and make informed decisions. Overall, the database will save time, improve the organisation of information, reduce errors and support the efficient operation of the cellphone retail business.
 
-7.Business rules 
+7. Business rules 
 1.Each customer must be assisted by one or many cashiers, and a cashier can assist one or many customers.
 2.Each customer must place one or many orders and an order must belong to one and only one customer.
 3.Each invoice must have only one payment and a payment must have only one invoice.
@@ -48,7 +50,7 @@ Management will be able to use the stored information to understand the business
  9.Each order must have one or many orders and a cellphone must have one or many orders.
 10.Each customer must make one or many payments each payment belong to only one customer.
 
- 8.ERD 
+ 8. ERD 
 The Entity Relationship Diagram visually represents the following entities and their relationship, based on the business rules above.
  
  ##CUSTOMER			
@@ -149,7 +151,7 @@ Order_Item_ID	INTEGER	FK	Not Null
 Product_ID	INTEGER	FK	Not Null
 (Mandatory)
 
- 10.OUTCOMES
+ 10. OUTCOMES
 The Retail Cellphone Shop Database is expected to produce the following reports:
 Customer report: Lists each customer’s details (name, ID number, email, contact number), the cashier who assisted them, and their orders and invoices.
 Invoice report: Shows each invoice’s date, store address, linked orders, cellphones sold and the payment made against it.
@@ -158,10 +160,6 @@ Cashier performance report: Shows how many customers each cashier assisted, how 
 Cellphone catalogue reort: Lists cellphones by brand, model, serial number, colour, storage capacity and price, so staff can quickly find a model that matches a customer’s needs.
 Stock report:Shows the stock batches received, their batch numbers and supply dates, and the cellphones in each, so management can see what is in stock and what has been sold.
 Supplier report:Lists each supplier’s details, the batches they have supplied and the supply dates, to help management evaluate suppliers.
-
-
-
-
 
 
 
