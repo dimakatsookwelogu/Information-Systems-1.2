@@ -2,7 +2,7 @@
 
 Introduction
 
-1. Topic
+1. Topic:
 Cellphone Retail Shop Database
 
 2.1 Overview
